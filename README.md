@@ -75,8 +75,9 @@ Create a new directory: mkdir dsci601project
 Download all the files in this directory and save Key.txt here.
 
 Install selenium using pip: 
+```
 pip install selenium
-
+```
 Download Chromedriver and store it in the directory created for this project "dsci601project":
 1) [https://chromedriver.chromium.org/downloads](url)
 2) Check Google Chrome Version by clicking the 3 dots in the right hand corner then go to  Help -> About Google Chrome
@@ -91,24 +92,33 @@ Second Search Query: "Delhi air pollution" save to csv "AirPollutionVideos.csv"
 In order to use a new search query, change line 68. 
 In order to save the CSV to a new location, change line 56. 
 
-To Extract video IDs only use the Google Colab Notebook CapstoneExtractVideoIds.ipynb [![Open In Colab](https://colab.research.google.com/drive/1IOXp0ewtgjOcPMmGGz_cPA_L7uf0HPJj#scrollTo=NAFCek1ehv4T)
+To Extract video IDs only use the Google Colab Notebook CapstoneExtractVideoIds.ipynb [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1IOXp0ewtgjOcPMmGGz_cPA_L7uf0HPJj?usp=sharing)
 Generate "VideoIDs.txt" and "VideoIDs1.txt"
 
 To obtain the video metadata, first create two folders in the same directory with name example: AirPollutionVideoMetadata and AirPollutionNewsMetadata
 The python command to download video metadata will be:
-1) python DownloadVideoMetadata.py c VideoIDs.txt AirPollutionVideoMetadata Key.txt 
-2) python DownloadVideoMetadata.py c VideoIDs1.txt AirPollutionNewsMetadata Key.txt 
-
+```
+python DownloadVideoMetadata.py c VideoIDs.txt AirPollutionVideoMetadata Key.txt
+```
+```
+python DownloadVideoMetadata.py c VideoIDs1.txt AirPollutionNewsMetadata Key.txt 
+```
 To obtain the comments, first create two folders in the same directory with name example: Comments and NewsComments
 The python command to download comments will be :
-1) python DownloadYouTubeComments c VideoIDs.txt Comments Key.txt 
-2) python DownloadYouTubeComments c VideoIDs1.txt NewsComments Key.txt 
-
+```
+ python DownloadYouTubeComments c VideoIDs.txt Comments Key.txt
+```
+```
+python DownloadYouTubeComments c VideoIDs1.txt NewsComments Key.txt 
+```
 To obtain parsed comments, create 2 directories at the directory structure level as Comments and NewsComments example: CommentsParsed and NewsCommentsParsed
 Then use the following commands: 
-1) python ParseComments Comments CommentsParsed
-2) python ParseComments NewsComments NewsCommentsParsed
-
+```
+python ParseComments Comments CommentsParsed
+```
+```
+python ParseComments NewsComments NewsCommentsParsed
+```
 
 
 
