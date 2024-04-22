@@ -50,3 +50,69 @@ Edit the subreddit_names and keywords in the script to tailor the search to your
 #### Data Output
 
 The script saves the scraped data in JSON format in the project directory. Each file is named after the subreddit it contains data from.
+
+## YouTube data:
+You first need to create a YouTube API key. 
+You can find step-by-step instructions here: [https://www.youtube.com/watch?v=jykW3AX8pEE](url)
+Or follow the steps below:
+1) Go to [https://console.cloud.google.com/projectselector2/apis/dashboard?supportedpurview=project](url)
+2) Click "Select a project"
+3) Click "New Project" -> Add project name: example "DSCI601" ->  Organization: "g.rit.edu" -> Click "Create"
+4) Next go to Library (located on the left under "APIs & Services")
+5) Search "youtube data api v3" then click on it
+6) Click "Enable"
+7) Click "Credentials" (located on the left under "APIs & Services YouTube Data API v3")
+8) Click "Create Credentials" ->  "API Key" 
+9) Copy the API key and save it in a text file Key.txt
+
+### Prerequisites
+- Python 3.6 or later
+- pip (Python package installer)
+- Google Chrome: [https://www.google.com/chrome/](url)
+
+In Terminal:
+Create a new directory: mkdir dsci601project
+Download all the files in this directory and save Key.txt here.
+
+Install selenium using pip: 
+pip install selenium
+
+Download Chromedriver and store it in the directory created for this project "dsci601project":
+1) [https://chromedriver.chromium.org/downloads](url)
+2) Check Google Chrome Version by clicking the 3 dots in the right hand corner then go to  Help -> About Google Chrome
+3) Look for the Chrome Driver which is compatible with the Google Chrome installed.
+
+Extracting Comments:
+
+Using DownloadVideoURLsFromSearchQuery.py, you can download video urls for a given YouTube search query. 
+First Search Query: "Delhi air pollution news" save to csv "AirPollutionNews.csv"
+Second Search Query: "Delhi air pollution" save to csv "AirPollutionVideos.csv"
+
+In order to use a new search query, change line 68. 
+In order to save the CSV to a new location, change line 56. 
+
+To Extract video IDs only use the Google Colab Notebook CapstoneExtractVideoIds.ipynb [![Open In Colab](https://colab.research.google.com/drive/1IOXp0ewtgjOcPMmGGz_cPA_L7uf0HPJj#scrollTo=NAFCek1ehv4T)
+Generate "VideoIDs.txt" and "VideoIDs1.txt"
+
+To obtain the video metadata, first create two folders in the same directory with name example: AirPollutionVideoMetadata and AirPollutionNewsMetadata
+The python command to download video metadata will be:
+1) python DownloadVideoMetadata.py c VideoIDs.txt AirPollutionVideoMetadata Key.txt 
+2) python DownloadVideoMetadata.py c VideoIDs1.txt AirPollutionNewsMetadata Key.txt 
+
+To obtain the comments, first create two folders in the same directory with name example: Comments and NewsComments
+The python command to download comments will be :
+1) python DownloadYouTubeComments c VideoIDs.txt Comments Key.txt 
+2) python DownloadYouTubeComments c VideoIDs1.txt NewsComments Key.txt 
+
+To obtain parsed comments, create 2 directories at the directory structure level as Comments and NewsComments example: CommentsParsed and NewsCommentsParsed
+Then use the following commands: 
+1) python ParseComments Comments CommentsParsed
+2) python ParseComments NewsComments NewsCommentsParsed
+
+
+
+
+
+
+ 
+
