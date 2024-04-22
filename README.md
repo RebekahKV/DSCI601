@@ -12,6 +12,7 @@ This project utilizes the Python Reddit API Wrapper (PRAW) to scrape Reddit post
 
 ### Installation Instructions
 Set up a developer account on Reddit to get the API token herw:  [https://www.reddit.com/prefs/apps](url)
+
 Follow the below steps or go here: [https://www.educative.io/courses/reddit-api-python/get-started-with-the-reddit-api](url)
 1) Click on the "are you a developer? create an app..." button.
  In the fields, add the following information.
@@ -191,12 +192,12 @@ IndicLID_model = IndicLID(input_threshold = 0.5, roman_lid_threshold = 0.6)
 #### Ensure your data is in JSON format and placed in the appropriate directory. Update the script to point to the correct file location:
 
 ```
-file_path = '/path/to/yourfile.json'
+file_path = 'IdentificationModel/Reddit/MergedDelhi.json'
 ```
 
 #### Run the script to perform language identification on your data:
 ```
-python path_to_your_script.py
+python IdentificationModel/Reddit/MergedDelhi.json
 ```
 #### Data Handling
 
