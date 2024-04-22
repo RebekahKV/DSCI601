@@ -197,7 +197,7 @@ file_path = 'IdentificationModel/Reddit/MergedDelhi.json'
 
 #### Run the script to perform language identification on your data:
 ```
-python IdentificationModel/Reddit/MergedDelhi.json
+python IdentificationModel/Reddit/Identifyfinal.ipynb
 ```
 #### Data Handling
 
