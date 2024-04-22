@@ -219,6 +219,18 @@ The script outputs the language prediction for each unique text string found in 
 ### YouTube Comments:
 Upload AllComments.csv to [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1D7uu7-qOmiVhFhWaSSydAGR08hwm5D7Y?usp=sharing) for language identification. Download LanguageIdentifiedComments.csv and save it in the dsci601project directory
 
+# Data Exploration and Visualization
+
+## Reddit
+
+Once you have run the model for identifaction you can start data exploration by following the script in DataExploration/Reddit/DataExploration.ipynb 
+
+#### Interface
+<!-- colab integratation on running the model on custom input python script -->
+Inference Notebook --> [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/162cDyVFB6P0xEA3rIZQGMdWhjdEsvmN4?usp=sharing)
+
+
+
 
 
 
