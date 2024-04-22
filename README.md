@@ -1,7 +1,7 @@
 # DSCI601
 ## Data Collection
 ## Reddit data:
-Reddit Data Retrieval Using PRAW
+Reddit Data Retrieval
 
 ### Overview
 This project utilizes the Python Reddit API Wrapper (PRAW) to scrape Reddit posts and comments based on specific keywords within certain subreddits. The data is then saved in JSON format. This script is designed to to gather discussions from various dates and subreddits.
@@ -11,6 +11,7 @@ This project utilizes the Python Reddit API Wrapper (PRAW) to scrape Reddit post
 - pip (Python package installer)
 
 ### Installation Instructions
+Set up a developer account on Reddit to get the API token herw:  [(https://www.reddit.com/prefs/apps)](url)
 
 ### Clone the Repository
 To get started, clone this repository to your local system:
