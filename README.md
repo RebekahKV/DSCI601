@@ -216,6 +216,9 @@ Tests are included to ensure the data is read correctly and the model prediction
 
 The script outputs the language prediction for each unique text string found in the dataset and prints the total count of processed texts.
 
+### YouTube Comments:
+Upload AllComments.csv to [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1D7uu7-qOmiVhFhWaSSydAGR08hwm5D7Y?usp=sharing) for language identification. Download LanguageIdentifiedComments.csv and save it in the dsci601project directory
+
 
 
 
