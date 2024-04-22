@@ -40,6 +40,10 @@ To run the script, navigate to the directory containing your script and execute:
 ```
 python script_name.py  
 ```
+### Interface
+<!-- colab integratation on running the model on custom input python script -->
+Inference Notebook --> [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1uoHGHnASpKln1X7t_RJJgNchRsylurNI?usp=sharing)
+
 #### Modifying Search Criteria
 Edit the subreddit_names and keywords in the script to tailor the search to your interests. These lists determine which subreddits are searched and what keywords are looked for.
 
