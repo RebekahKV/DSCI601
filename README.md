@@ -54,7 +54,7 @@ Important: Ensure secrets.py is listed in your .gitignore to prevent sharing you
 
 To run the script, navigate to the directory containing your script and execute:
 ```
-python script_name.py  
+python DataCollection/Reddit/Reddit_Data_Retrieval_Date_and_Keywords_2.ipynb 
 ```
 ### Interface
 <!-- colab integratation on running the model on custom input python script -->
@@ -199,6 +199,11 @@ file_path = 'IdentificationModel/Reddit/MergedDelhi.json'
 ```
 python IdentificationModel/Reddit/Identifyfinal.ipynb
 ```
+
+#### Interface
+<!-- colab integratation on running the model on custom input python script -->
+Inference Notebook --> [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/12BZWviNtrxdtKEh8TVFTgCFVSgwb3JhD?usp=sharing)
+
 #### Data Handling
 
 The script includes functions to extract text bodies from comments and their replies in JSON files, clean them, and prepare them for language identification.
