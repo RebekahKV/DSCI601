@@ -147,7 +147,9 @@ Upload Comments.csv and NEWSComments.csv to [![Open In Colab](https://colab.rese
 ## Language Identification with IndicLID
 
 ### Overview
-This project uses the IndicLID model from AI4Bharat to perform language identification on a dataset of text data extracted from JSON files. The model can detect multiple Indian languages and is designed to process and predict language distributions in given texts.
+This project uses the IndicLID model from AI4Bharat to perform language identification on a dataset of text data extracted from JSON files. The model can detect multiple Indian languages and is designed to process and predict language distributions in given texts. 
+
+You can learn more about the model here: [https://github.com/AI4Bharat/IndicLID/tree/master](url)
 
 ### Prerequisites
 - Python 3.6 or later
