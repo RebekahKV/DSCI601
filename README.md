@@ -70,7 +70,7 @@ Or follow the steps below:
 - pip (Python package installer)
 - Google Chrome: [https://www.google.com/chrome/](url)
 
-In Terminal:
+### In Terminal:
 Create a new directory: mkdir dsci601project
 Download all the files in this directory and save Key.txt here.
 
@@ -83,7 +83,7 @@ Download Chromedriver and store it in the directory created for this project "ds
 2) Check Google Chrome Version by clicking the 3 dots in the right hand corner then go to  Help -> About Google Chrome
 3) Look for the Chrome Driver which is compatible with the Google Chrome installed.
 
-Extracting Comments:
+### Extracting Comments:
 
 Using DownloadVideoURLsFromSearchQuery.py, you can download video urls for a given YouTube search query. 
 First Search Query: "Delhi air pollution news" save to csv "AirPollutionNews.csv"
@@ -119,7 +119,10 @@ python ParseComments Comments CommentsParsed
 ```
 python ParseComments NewsComments NewsCommentsParsed
 ```
-
+### Convert .json to .csv:
+In CommentsParsed and NewsCommentsParsed: compress the jsonbyline file to jsonbyline.zip
+Upload the CommentsParsed jsonbyline.zip to [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/132CjI7gdlrL30vhY6PzGVIS4iP5LdGZZ?usp=sharing) and then download the Comments.csv file into the dsci601project directory
+Upload the NewsCommentsParsed jsonbyline.zip to [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1CSHCrr8YyOAbMUCA3WKRM1DNkgCU547I?usp=sharing) and then download the NEWSComments.csv file into the same directory
 
 
 
