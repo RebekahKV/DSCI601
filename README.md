@@ -230,7 +230,7 @@ Once you have run the model for identifaction you can start data exploration by 
 Inference Notebook --> [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/162cDyVFB6P0xEA3rIZQGMdWhjdEsvmN4?usp=sharing)
 
 ## YouTube
-Upload LanguageIdentifiedComments.csv in [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1YgFmB9Dd9juPvp4dYviYfdoRmVS1V5mL?usp=sharing) for data exploration
+Upload LanguageIdentifiedComments.csv to [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1YgFmB9Dd9juPvp4dYviYfdoRmVS1V5mL?usp=sharing) for data exploration
 
 
 
