@@ -128,5 +128,78 @@ Upload the NewsCommentsParsed jsonbyline.zip to [![Open In Colab](https://colab.
 ### Merge Comment Files:
 Upload Comments.csv and NEWSComments.csv to [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1u4xaJtQOYpuswAcXKUeRb6DuB8ogRsM9?usp=sharing) then download AllComments.csv into the dsci601project directory
 
+## Language Identification with IndicLID
+
+### Overview
+This project uses the IndicLID model from AI4Bharat to perform language identification on a dataset of text data extracted from JSON files. The model can detect multiple Indian languages and is designed to process and predict language distributions in given texts.
+
+### Prerequisites
+- Python 3.6 or later
+- fasttext
+- transformers
+
+### Installation Instructions
+
+#### Clone the Repository
+First, clone this repository and navigate to the project directory:
+```
+git clone https://github.com/AI4Bharat/IndicLID.git
+cd IndicLID/Inference
+```
+#### Create and Navigate to the Models Directory
+```
+mkdir models
+cd models
+```
+#### Download Model Files
+#### Download the necessary model files using wget:
+```
+wget https://github.com/AI4Bharat/IndicLID/releases/download/v1.0/indiclid-bert.zip
+wget https://github.com/AI4Bharat/IndicLID/releases/download/v1.0/indiclid-ftn.zip
+wget https://github.com/AI4Bharat/IndicLID/releases/download/v1.0/indiclid-ftr.zip
+```
+
+#### Unzip the downloaded model archives:
+```
+unzip indiclid-bert.zip
+unzip indiclid-ftn.zip
+unzip indiclid-ftr.zip
+```
+
+#### Initialize the IndicLID Model
+#### Initialize the model with specified thresholds for input and roman language identification:
+```
+from ai4bharat.IndicLID import IndicLID
+IndicLID_model = IndicLID(input_threshold = 0.5, roman_lid_threshold = 0.6)
+```
+#### Load and Process Data
+#### Ensure your data is in JSON format and placed in the appropriate directory. Update the script to point to the correct file location:
+
+```
+file_path = '/path/to/yourfile.json'
+```
+
+#### Run the script to perform language identification on your data:
+```
+python path_to_your_script.py
+```
+#### Data Handling
+
+The script includes functions to extract text bodies from comments and their replies in JSON files, clean them, and prepare them for language identification.
+
+#### Testing
+
+Tests are included to ensure the data is read correctly and the model predictions are functioning as expected.
+
+#### Output
+
+The script outputs the language prediction for each unique text string found in the dataset and prints the total count of processed texts.
+
+
+
+
+
+ 
+
  
 
