@@ -11,7 +11,21 @@ This project utilizes the Python Reddit API Wrapper (PRAW) to scrape Reddit post
 - pip (Python package installer)
 
 ### Installation Instructions
-Set up a developer account on Reddit to get the API token herw:  [(https://www.reddit.com/prefs/apps)](url)
+Set up a developer account on Reddit to get the API token herw:  [https://www.reddit.com/prefs/apps](url)
+Follow the below steps or go here: [https://www.educative.io/courses/reddit-api-python/get-started-with-the-reddit-api](url)
+1) Click on the "are you a developer? create an app..." button.
+ In the fields, add the following information.
+ Add the name of your application.
+ Select the option of choice.
+ Add the "description" (optional).
+2) Skip the "about url".
+3) Add the URL in the widget below in the "redirect uri" field.
+```
+{{EDUCATIVE_LIVE_VM_URL}}
+```
+4) URL for the redirect URI
+ Click on the "create app" button.
+ Once the application has been created, copy the "secret" and the "personal use script" token in the widget below,. These will be called CLIENT_SECRET and CLIENT_ID    respectively throughout the course.
 
 ### Clone the Repository
 To get started, clone this repository to your local system:
