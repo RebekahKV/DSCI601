@@ -140,6 +140,8 @@ In CommentsParsed and NewsCommentsParsed: compress the jsonbyline file to jsonby
 Upload the CommentsParsed jsonbyline.zip to [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/132CjI7gdlrL30vhY6PzGVIS4iP5LdGZZ?usp=sharing) and then download the Comments.csv file into the dsci601project directory
 Upload the NewsCommentsParsed jsonbyline.zip to [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1CSHCrr8YyOAbMUCA3WKRM1DNkgCU547I?usp=sharing) and then download the NEWSComments.csv file into the same directory
 
+#### Testing
+A test is included in this notebook [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1s-gwGOEs9VKgDh7-0kW1DaTjHphlh5R8?usp=sharing) to ensure that the .json file is read and stored correctly
 
 ### Merge Comment Files:
 Upload Comments.csv and NEWSComments.csv to [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1u4xaJtQOYpuswAcXKUeRb6DuB8ogRsM9?usp=sharing) then download AllComments.csv into the dsci601project directory
@@ -233,6 +235,10 @@ Inference Notebook --> [![Open In Colab](https://colab.research.google.com/asset
 
 ## YouTube
 Upload LanguageIdentifiedComments.csv to [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1YgFmB9Dd9juPvp4dYviYfdoRmVS1V5mL?usp=sharing) for data exploration
+
+#### Testing
+A test is included in this notebook [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1cnEbzzRzB_OcsB8UtSz2YjiPe-A_D8YV?usp=sharing) to ensure that the comments are processed correctly 
+
 
 
 
