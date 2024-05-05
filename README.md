@@ -141,7 +141,7 @@ Upload the CommentsParsed jsonbyline.zip to [![Open In Colab](https://colab.rese
 Upload the NewsCommentsParsed jsonbyline.zip to [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1CSHCrr8YyOAbMUCA3WKRM1DNkgCU547I?usp=sharing) and then download the NEWSComments.csv file into the same directory
 
 #### Testing
-A test is included in this notebook [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1s-gwGOEs9VKgDh7-0kW1DaTjHphlh5R8?usp=sharing) to ensure that the .json file is read and stored correctly
+A test is included in this notebook [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1NH_CDLwK9oHqsWThJ7iqH5vdw9N0k8N3?usp=sharing) to ensure that the .json file is read and stored correctly
 
 ### Merge Comment Files:
 Upload Comments.csv and NEWSComments.csv to [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1u4xaJtQOYpuswAcXKUeRb6DuB8ogRsM9?usp=sharing) then download AllComments.csv into the dsci601project directory
