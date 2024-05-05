@@ -108,7 +108,7 @@ Second Search Query: "Delhi air pollution" save to csv "AirPollutionVideos.csv"
 In order to use a new search query, change line 68. 
 In order to save the CSV to a new location, change line 56. 
 
-To Extract video IDs only use the Google Colab Notebook CapstoneExtractVideoIds.ipynb [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1IOXp0ewtgjOcPMmGGz_cPA_L7uf0HPJj?usp=sharing)
+To Extract video IDs only, use the Google Colab Notebook CapstoneExtractVideoIds.ipynb [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1qsxW18dRx0cx1hqRu0Dz-VtDGryMOoQu?usp=sharing)
 Generate "VideoIDs.txt" and "VideoIDs1.txt"
 
 To obtain the video metadata, first create two folders in the same directory with name example: AirPollutionVideoMetadata and AirPollutionNewsMetadata
