@@ -1,3 +1,6 @@
+"""
+Code provided by Prof. Ashiqur R. KhudaBukhsh
+"""
 import time
 from selenium import webdriver
 import random
