@@ -137,9 +137,7 @@ python ParseComments NewsComments NewsCommentsParsed
 ```
 ### Convert .json to .csv:
 In CommentsParsed and NewsCommentsParsed: compress the jsonbyline file to jsonbyline.zip
-Upload the CommentsParsed jsonbyline.zip to [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/132CjI7gdlrL30vhY6PzGVIS4iP5LdGZZ?usp=sharing) and then download the Comments.csv file into the dsci601project directory
-Upload the NewsCommentsParsed jsonbyline.zip to [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1CSHCrr8YyOAbMUCA3WKRM1DNkgCU547I?usp=sharing) and then download the NEWSComments.csv file into the same directory
-
+Upload the CommentsParsed jsonbyline.zip to [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/132CjI7gdlrL30vhY6PzGVIS4iP5LdGZZ?usp=sharing) and then download the Comments.csv file into the dsci601project directory. Re-run the code for NewsCommentsParsed, and then download the NEWSComments.csv file into the dsci601project directory. Before re-running the code for NEWSComments, replace the CommentsParsed jsonbyline.zip with the NewsCommentsParsed jsonbyline.zip
 #### Testing
 A test is included in this notebook [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1NH_CDLwK9oHqsWThJ7iqH5vdw9N0k8N3?usp=sharing) to ensure that the .json file is read and stored correctly
 
