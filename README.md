@@ -108,8 +108,7 @@ Second Search Query: "Delhi air pollution" save to csv "AirPollutionVideos.csv"
 In order to use a new search query, change line 68. 
 In order to save the CSV to a new location, change line 56. 
 
-To Extract video IDs only, use the Google Colab Notebook CapstoneExtractVideoIds.ipynb [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1qsxW18dRx0cx1hqRu0Dz-VtDGryMOoQu?usp=sharing)
-Generate "VideoIDs.txt" and "VideoIDs1.txt"
+To Extract video IDs only, use CapstonExtractVideoIds.py to generate "VideoIDs.txt" and "VideoIDs1.txt"
 
 To obtain the video metadata, first create two folders in the same directory with name example: AirPollutionVideoMetadata and AirPollutionNewsMetadata
 The python command to download video metadata will be:
@@ -135,15 +134,8 @@ python ParseComments Comments CommentsParsed
 ```
 python ParseComments NewsComments NewsCommentsParsed
 ```
-### Convert .json to .csv:
-In CommentsParsed and NewsCommentsParsed: compress the jsonbyline file to jsonbyline.zip
-Upload the CommentsParsed jsonbyline.zip to [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/132CjI7gdlrL30vhY6PzGVIS4iP5LdGZZ?usp=sharing) and then download the Comments.csv file into the dsci601project directory. Re-run the code for NewsCommentsParsed, and then download the NEWSComments.csv file into the dsci601project directory. Before re-running the code for NEWSComments, replace the CommentsParsed jsonbyline.zip with the NewsCommentsParsed jsonbyline.zip
-#### Testing
-A test is included in this notebook [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1NH_CDLwK9oHqsWThJ7iqH5vdw9N0k8N3?usp=sharing) to ensure that the .json file is read and stored correctly
-
-### Merge Comment Files:
-Upload Comments.csv and NEWSComments.csv to [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1u4xaJtQOYpuswAcXKUeRb6DuB8ogRsM9?usp=sharing) then download AllComments.csv into the dsci601project directory
-
+### Convert and Merge:
+We can run CapstonConvertandMerge.py to convert the jsonbyline files in CommentsParsed and NewsCommentsParsed and same them in either .json or .csv format.
 ## Language Identification with IndicLID
 
 ### Overview
