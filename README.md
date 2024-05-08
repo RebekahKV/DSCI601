@@ -135,7 +135,7 @@ python ParseComments Comments CommentsParsed
 python ParseComments NewsComments NewsCommentsParsed
 ```
 ### Convert and Merge:
-We can run CapstonConvertandMerge.py to convert the jsonbyline files in CommentsParsed and NewsCommentsParsed and same them in either .json or .csv format.
+Run CapstonConvertandMerge.py to convert the jsonbyline files in CommentsParsed and NewsCommentsParsed and same them in either .json or .csv format.
 ## Language Identification with IndicLID
 
 ### Overview
