@@ -229,6 +229,15 @@ Upload LanguageIdentifiedComments.csv to [![Open In Colab](https://colab.researc
 #### Testing
 A test is included in this notebook [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1t3dEf6dyq6TuKY7QmSln0j4fKnM712V0?usp=sharing) to ensure that the comments are processed correctly 
 
+# Topic Modeling
+To get an overview of the dataset use DataExploration/ldaTopicModeling.py 
+
+# LLM Training
+For sentiment analysis: 
+Llama 3 Training use DataExploration/LLMTraining/train-prompt.py
+BERT Training use DataExploration/LLMTraining/train-bert.py
+
+For factor identification use DataExploration/LLMTraining/train-lora-factor.py
 
 
 
