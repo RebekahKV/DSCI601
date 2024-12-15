@@ -237,8 +237,26 @@ For sentiment analysis:
 Llama 3 Training use DataExploration/LLMTraining/train-prompt.py
 BERT Training use DataExploration/LLMTraining/train-bert.py
 
+Before using DataExploration/LLMTraining/train-prompt.py and DataExploration/LLMTraining/train-bert.py install the following libraries:
+```
+pip install torch
+pip install transformers
+pip install scikit-learn
+```
+
 For factor identification use DataExploration/LLMTraining/train-lora-factor.py
 
+Before using DataExploration/LLMTraining/train-lora-factor.py install the following libraries:
+```
+pip install tqdm
+pip install bitsandbytes
+pip install torch
+pip install transformers
+pip install datasets
+pip install peft
+pip install trl
+pip install scikit-learn
+```
 
 
 
